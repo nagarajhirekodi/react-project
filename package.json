@@ -1,0 +1,41 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node lib/server.js"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagarajhirekodi/react-project.git"
+  },
+  "author": "nagarajhirekodi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagarajhirekodi/react-project/issues"
+  },
+  "homepage": "https://github.com/nagarajhirekodi/react-project#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^3.0.2",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "pm2": "^4.3.1"
+  }
+}
