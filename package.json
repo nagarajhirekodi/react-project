@@ -2,13 +2,14 @@
   "name": "react-project",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "lib/server.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec babel-node lib/server.js"
+    "dev": "nodemon --exec babel-node lib/server.js",
+    "webpack":"webpack -wd"
   },
   "babel": {
     "presets": [
@@ -29,6 +30,7 @@
   "homepage": "https://github.com/nagarajhirekodi/react-project#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
@@ -36,6 +38,9 @@
     "eslint": "^6.8.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.3",
-    "pm2": "^4.3.1"
+    "pm2": "^4.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.42.1"
   }
 }
